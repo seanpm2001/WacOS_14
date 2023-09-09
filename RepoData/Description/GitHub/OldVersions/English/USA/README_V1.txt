@@ -1,0 +1,1 @@
+🍏️🖥️💾️ The official source repository/separate repository for the archival and development of WacOS 14.x, an open source remake of MacOS Sonoma (14.x) Written in C, Assembly, Swift, and Objective-C. Part of the WacOS operating system project.
