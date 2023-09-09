@@ -1,295 +1,152 @@
 
 ***
 
-# <projectName>
+<details open><summary><b lang="en">Click/tap here to expand/collapse the logo for this subproject</b></summary>
 
-![{Project icon} This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](Image.svg)
+![/W_Modern1_HighCompression](/W_Modern1_HighCompression.png)
 
-# By:
+</details>
 
-![{Developer name} This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](Image2.svg)
+<!--
+| ![SadMac_Tiny64px_HighCompression.png](SadMac_Tiny64px_HighCompression.png) Note: Default RSS support was dropped in WOAHS X 10.8 |
+|-----------------------------------------------------------------------------------------------|
+!-->
 
-### Top
+| [Previous (13.x/13.0)](https://github.com/seanpm2001/WacOS_13/) | [Current (14.x/14.0)](https://github.com/seanpm2001/WacOS_14/) | [Next **TO BE DETERMINED** <!--(15.x/15.0)](https://github.com/seanpm2001/WacOS_15/)!--> |
+|---|---|---|
+| ![/W_Plain_HighCompression.png](/W_Plain_HighCompression.png) | ![/W_Plain_HighCompression.png](/W_Plain_HighCompression.png) | ![/W_Plain_HighCompression.png](/W_Plain_HighCompression.png) |
+| First boot | First boot | First boot |
+| ![/W_Modern1_HighCompression](/W_Modern1_HighCompression.png) | ![/W_Modern1_HighCompression](/W_Modern1_HighCompression.png) | ![/W_Modern1_HighCompression](/W_Modern1_HighCompression.png) |
+| Default boot | Default boot | Default boot |
+| WacOS 13.x/13.0 (Ventura) [Local](/WacOS_X/XIII/13/) | WacOS 14.x (Sonoma) [Local](/WacOS_X/XIII/14/) | TBD (TBD) [Local](/WacOS_X/) |
 
-# `README.md`
+# WacOS 14
+
+WacOS 14/14.x is an open source recreation of MacOS 14.x (Sonoma) It is part of the WacOS operating system project. 
+
+## Language
+
+The system is currently written in C, but will also support several other languages, including x86 Assembly, Objective-C, Objective-C++, Swift, Metal, and AppleScript
+
+### Programming language support
+
+Objective-C is bumped up to version 2.0 (As of Wac OS X 10.6)
+
+Python version 2.7 is included (As of Wac OS X 10.15)
+
+Perl version ? is included (As of WacOS 10.15)
+
+Swift is now supported (Starting with WOAHS X 10.9)
+
+Metal is now supported (Starting with WacOS 10.12)
+
+Objective-C++ is now supported (as of WacOS 10.12)
+
+## Features
+
+Features to replicate
+
+Source: [MacOS 14 (Sonama) - Wikipedia (en)](https://en.wikipedia.org/w/index.php?title=MacOS_Sonoma&oldid=1173808371&useskin=monobook)
+
+There is not enough data yet. I cannot compile a list of features or changes yet. The base operating system isn't planned to be released until Autumn of 2022, and data won't likely be immediately complete then either.
+
+Program list
+
+- [x] Coming soon
+
+To add to this list:
+
+```
+AirPort Utility
+App Store
+Archive Utility
+Audio MIDI Setup
+Automator
+Bluetooth File Exchange
+Boot Camp Assistant
+Calculator
+ColorSync Utility)
+Console
+Contacts
+Dictionary
+Digital Color Meter
+Disk Utility
+DVD Player
+FaceTime
+Font Book
+GarageBand (may not be pre-installed)
+Grab
+Grapher
+iMovie (may not be pre-installed)
+iTunes
+Image Capture
+Keychain Access
+Keynote (may not be pre-installed)
+Messages
+Migration Assistant
+Notes
+Notification Center
+Numbers (may not be pre-installed)
+Pages (may not be pre-installed)
+Photo Booth
+QuickTime Player
+Script Editor
+Stickies
+System Information
+Terminal
+TextEdit
+VoiceOver Utility
+```
+
+Feature dump (incomplete)
+
+```diff
+++ Widgets have been completely revamped, they are no longer constrained to the Notification Center—instead they can be placed anywhere on the desktop, and the widget picker has been redesigned to resemble the iPadOS version of it.
+++ The lock screen has been redesigned to include the date and time similar to iOS and iPadOS.
+++ Video-conferencing apps can overlay the presenter's webcam video on top of screen sharing.
+++ App icons and the spotlight search bar have been made more rounded.
+++ Safari:
+++++ Browsing profiles enable separate sets of bookmarks, extensions, and cookies, which can be used to separate, for example, a personal setup from the work one.
+++++ Password sharing lets multiple people have access to the same collection of website passwords, and update them as needed, with changes syncing across all enrolled devices.
+++++ “Web apps” lets the user add any website to the Dock and open it in a simplified Safari interface. This feature is somewhat different from progressive web apps since it doesn't require additional work of website developers.
+++ Messages:
+++++ More precise search filters: for example, the contact name can be combined with a search term to look for the term within the specific conversation.
+++++ Catch-up lets the user quickly jump to the first unread message in a conversation.
+++++ iMessage stickers have a new picker interface.
+++ Game mode, to optimize gaming performance by prioritizing gaming tasks and allocating more GPU and CPU capacity to the game.
+++ New slow-motion screen savers of different locations worldwide. When logged in, they transform into the desktop wallpaper.
+```
+
+## Feature translation notes
+
+The exact system requirements are not a forced emulation option. The WacOS system is designed to be lighter, but you can adjust it to match MacOS.
+
+WacOS equivalents of programs are included.
+
+Malicious methods (such as DRM/TPM) are NEVER included with WacOS, not even as an open source recreation.
+
+Please [raise an issue](https://github.com/seanpm2001/WacOS/issues/) if any other clarification is needed.
+
+## Home repositories
+
+[Guesthouse repository](https://github.com/seanpm2001/WacOS_14/)
+
+This is a guesthouse repository, and not a home repository, as development mainly stays on the main WacOS side. This is just the guesthouse that the project retreats to at times. If you are already in this repository, the link is likely recursive, and will reload the page.
+
+[Home repository](https://github.com/seanpm2001/WacOS/tree/WacOS-dev/WacOS_X/XIV/14/)
+
+This is the home repository. If you are already in this repository, the link is likely recursive, and will reload the page.
 
 ***
 
-## Read this article in a different language
+## File info
 
-[ar عربى](README_AR.md) [zh-t 中國傳統的）](README_ZH-T.md)[**en-us**](README.md) [fr français](README_FR.md) [de Deutsch](README_DE.md) [EO Esperanto](README_EO.md)  [ja 日本語](README_JA.md) [ko-south 韓國語](README_KO_SOUTH.md) [pl polski](README_PL.md) [ru русский](README_RU.md) [es en español](README_ES.md)
+**File type:** `Markdown document (*.md *.mkd *.mdown *.markdown)`
 
-Translations in languages other than English are machine translated and are not yet accurate. No errors have been fixed yet as of March 21st 2021. Please report translation errors [here](https://github.com/seanpm2001/<repoName>/issues/). Make sure to backup your correction with sources and guide me, as I don't know languages other than English well (I plan on getting a translator eventually) please cite [wiktionary](https://en.wiktionary.org) and other sources in your report. Failing to do so will result in a rejection of the correction being published.
+**File version:** `1 (2022, Friday, September 8th at 2:01 pm PST)` (created 1 day early)
 
-***
+**Line count (including blank lines and compiler line):** `153`
 
-# Index
-
-[00.0 - Top](#Top)
-
-> [00.1 - Title](#<projectName>)
-
-> [00.2 - Read this article in a different language](#Read-this-article-in-a-different-language)
-
-> [00.3 - Index](#Index)
-
-[01.0 - Description](#RepositoryName)
-
-[02.0 - About](#About)
-
-[03.0 - Wiki](#Wiki)
-
-[04.0 - Version history](#Version-history)
-
-[05.0 - Software status](#Software-status)
-
-[06.0 - Sponsor info](#Sponsor-info)
-
-[07.0 - Contributers](#Contributers)
-
-[08.0 - Issues](#Issues)
-
-> [08.1 - Current issues](#Current-issues)
-
-> [08.2 - Past issues](#Past-issues)
-
-> [08.3 - Past pull requests](#Past-pull-requests)
-
-> [08.4 - Active pull requests](#Active-pull-requests)
-
-[09.0 - Resources](#Resources)
-
-[10.0 - Contributing](#Contributing)
-
-[11.0 - About README](#About-README)
-
-[12.0 - README Version history](#README-version-history)
-
-[13.0 - Footer](#You-have-reached-the-end-of-the-README-file)
-
-> [13.1 - End of file](#EOF)
-
-***
-
-# <repoName>
-<repo_description>
-
-***
-
-## About
-
-See above. <extendedRepoDescription>
-
-***
-
-## Wiki
-
-[Click/tap here to view this projects Wiki](https://github.com/seanpm2001/<repoName>/wiki)
-
-If the project has been forked, the Wiki was likely removed. Luckily, I include an embedded version. You can view it [here](/External/ProjectWiki/).
-
-***
-
-## Sponsor info
-
-![SponsorButton.png](SponsorButton.png)
-
-You can sponsor this project if you like, but please specify what you want to donate to. [See the funds you can donate to here](https://github.com/seanpm2001/Sponsor-info/tree/main/For-sponsors)
-
-You can view other sponsor info [here](https://github.com/seanpm2001/Sponsor-info/)
-
-Try it out! The sponsor button is right up next to the watch/unwatch button.
-
-***
-
-## Version history
-
-**Version history currently unavailable**
-
-**No other versions listed**
-
-***
-
-## Software status
-
-All of my works are free some restrictions. DRM (**D**igital **R**estrictions **M**anagement) is not present in any of my works.
-
-![DRM-free_label.en.svg](DRM-free_label.en.svg)
-
-This sticker is supported by the Free Software Foundation. I never intend to include DRM in my works.
-
-I am ussing the abbreviation "Digital Restrictions Management" instead of the more known "Digital Rights Management" as the common way of addressing it is false, there are no rights with DRM. The spelling "Digital Restrictions Management" is more accurate, and is supported by [Richard M. Stallman (RMS)](https://en.wikipedia.org/wiki/Richard_Stallman) and the [Free Software Foundation (FSF)](https://en.wikipedia.org/wiki/Free_Software_Foundation)
-
-This section is used to raise awareness for the problems with DRM, and also to protest it. DRM is defective by design and is a major threat to all computer users and software freedom.
-
-Image credit: [defectivebydesign.org/drm-free/...](https://www.defectivebydesign.org/drm-free/how-to-use-label)
-
-***
-
-## Contributers
-
-Currently, I am the only contributer. Contributing is allowed, as long as you follow the rules of the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-> * 1. [seanpm2001](https://github.com/seanpm2001/) - x commits (As of DoW, Month, DoM, Yr at ##:## a/pm)
-
-> * 2. No other contributers.
-
-***
-
-## Issues
-
-### Current issues
-
-* None at the moment
-
-* No other current issues
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Past issues
-
-* None at the moment
-
-* No other past issues
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Past pull requests
-
-* None at the moment
-
-* No other past pull requests
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Active pull requests
-
-* None at the moment
-
-* No other active pull requests
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-***
-
-## Resources
-
-Here are some other resources for this project:
-
-[Project language file](PROJECT_LANG.<fileExtensionForProgrammingLanguage>)
-
-[Join the discussion on GitHub](https://github.com/seanpm2001/<repoName>/discussions)
-
-No other resources at the moment.
-
-***
-
-## Contributing
-
-Contributing is allowed for this project, as long as you follow the rules of the `CONTRIBUTING.md` file.
-
-[Click/tap here to view the contributing rules for this project](CONTRIBUTING.md)
-
-***
-
-## About README
-
-File type: `Markdown (*.md)`
-
-File version: `0.1 (Sunday, March 21st 2021 at 7:50 pm)`
-
-Line count: `0,296`
-
-***
-
-## README version history
-
-Version 0.1 (Sunday, March 21st 2021 at 7:50 pm)
-
-> Changes:
-
-> * Started the file
-
-> * Added the title section
-
-> * Added the index
-
-> * Added the about section
-
-> * Added the Wiki section
-
-> * Added the version history section
-
-> * Added the issues section.
-
-> * Added the past issues section
-
-> * Added the past pull requests section
-
-> * Added the active pull requests section
-
-> * Added the contributors section
-
-> * Added the contributing section
-
-> * Added the about README section
-
-> * Added the README version history section
-
-> * Added the resources section
-
-> * Added a software status section, with a DRM free sticker and message
-
-> * Added the sponsor info section
-
-> * No other changes in version 0.1
-
-Version 1 (Coming soon)
-
-> Changes:
-
-> * Coming soon
-
-> * No other changes in version 1
-
-Version 2 (Coming soon)
-
-> Changes:
-
-> * Coming soon
-
-> * No other changes in version 2
-
-***
-
-### You have reached the end of the README file
-
-[Back to top](#Top) [Exit](https://github.com)
-
-### EOF
+**Current article language:** `English (USA)`
 
 ***
